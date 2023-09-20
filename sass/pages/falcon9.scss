@@ -91,26 +91,6 @@
     background-color: black;
 }
 
-.downloadDesc {
-    background-color: rgb(12, 11, 11);
-    height: 85vh;
-    padding-top: 220px;
-
-    a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-
-        &:hover {
-            color: $link-hover;
-        }
-    }
-
-    button {
-        border: 2px solid white;
-        margin-right: 10px;
-    }
-}
 
 
 // Media Query

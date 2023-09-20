@@ -7,6 +7,9 @@
   font-size: 12px;
   font-weight: bold;
 }
+.header #navItem {
+  font-size: 18px;
+}
 .header #navItem:hover {
   color: #b9b9b9;
 }
@@ -53,6 +56,25 @@
 }
 .footer .copy {
   color: #555252;
+}
+
+.downloadDesc {
+  background-color: rgb(12, 11, 11);
+  height: 85vh;
+  padding-top: 220px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.contact {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.contact:hover {
+  color: #b9b9b9;
 }
 
 @media screen and (max-width: 405px) {
@@ -195,24 +217,6 @@
   background-color: black;
 }
 
-.downloadDesc {
-  background-color: rgb(12, 11, 11);
-  height: 85vh;
-  padding-top: 220px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
-}
-.downloadDesc button {
-  border: 2px solid white;
-  margin-right: 10px;
-}
-
 @media screen and (max-width: 768px) {
   .titleNumb {
     font-size: 70px;
@@ -243,6 +247,113 @@
   .falcon9Desc {
     line-height: auto;
     font-size: 18px;
+  }
+}
+.container00.container08 {
+  background-image: url("../../images/humanFlight/01.jpg");
+}
+.container00.container09 {
+  background-image: url("../../images/humanFlight/02.jpg");
+}
+.container00.container10 {
+  background-image: url("../../images/humanFlight/03.jpg");
+}
+.container00.container11 {
+  background-image: url("../../images/humanFlight/04.jpg");
+}
+.container00.container12 {
+  background-image: url("../../images/humanFlight/05.jpg");
+}
+
+.container01Content {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subTitleHuman {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.earthDesc {
+  background-color: rgb(19, 19, 19);
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.earthDesc .textDescEarth {
+  color: #b9b9b9;
+  font-weight: 400;
+  font-size: 20px;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 25%;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subTitle {
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.containerLeftContent {
+  margin-left: 3%;
+  padding-top: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 200px;
+  }
+  .containerRightContent {
+    margin-left: 20%;
+  }
+  .containerLeftContent {
+    margin-left: 20%;
+  }
+  .earthDesc .textDescEarth {
+    color: #b9b9b9;
+    font-weight: 400;
+    font-size: 18px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content img {
+    width: 300px;
+  }
+  .container01Content .subTitleHuman {
+    font-size: 26px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .downloadDesc button {
+    margin-top: 20px;
   }
 }
 
